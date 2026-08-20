@@ -32,8 +32,8 @@ import matplotlib.pyplot as plt
 # -----------------------------
 # USER SETTINGS (EDIT AS NEEDED)
 # -----------------------------
-FOLDER_A = Path(r"Z:\EGP\EP\Model Runs\2025-12 Planning Case\Inputs\Demand\Gross Demand")
-FOLDER_B = Path(r"Z:\EGP\EP\Model Runs\2025-12 Planning Case\Inputs\Demand\Netted Demand")
+FOLDER_A = Path(r"")
+FOLDER_B = Path(r"")
 
 # These become column names in the annual TWh Excel output
 ANNUAL_COL_A = "Gross_Demand_CSVs_TWh"
