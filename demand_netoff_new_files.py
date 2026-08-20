@@ -8,7 +8,7 @@ print(
 Demand Netoff Generator (MODEL B): Net shaped with Diego profile; Embedded computed as residual.
 
 This version includes:
-- Annual-level Diego normalization (entire year sums to 1 across all days and 24 hours)
+- Annual-level normalization (entire year sums to 1 across all days and 24 hours)
 - Annual energy preserved by direct scaling of annual-normalized profile
 - Date alignment (inner join on YEAR/MONTH/DAY)
 - Fix B (cap NetMW ≤ GrossMW and redistribute to meet annual target)
